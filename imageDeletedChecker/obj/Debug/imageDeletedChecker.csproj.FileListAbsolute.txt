@@ -1,0 +1,9 @@
+c:\users\_\documents\visual studio 2013\Projects\imageDeletedChecker\imageDeletedChecker\bin\Debug\imageDeletedChecker.exe.config
+c:\users\_\documents\visual studio 2013\Projects\imageDeletedChecker\imageDeletedChecker\bin\Debug\imageDeletedChecker.exe
+c:\users\_\documents\visual studio 2013\Projects\imageDeletedChecker\imageDeletedChecker\bin\Debug\imageDeletedChecker.pdb
+c:\users\_\documents\visual studio 2013\Projects\imageDeletedChecker\imageDeletedChecker\obj\Debug\imageDeletedChecker.csprojResolveAssemblyReference.cache
+c:\users\_\documents\visual studio 2013\Projects\imageDeletedChecker\imageDeletedChecker\obj\Debug\imageDeletedChecker.Form1.resources
+c:\users\_\documents\visual studio 2013\Projects\imageDeletedChecker\imageDeletedChecker\obj\Debug\imageDeletedChecker.Properties.Resources.resources
+c:\users\_\documents\visual studio 2013\Projects\imageDeletedChecker\imageDeletedChecker\obj\Debug\imageDeletedChecker.csproj.GenerateResource.Cache
+c:\users\_\documents\visual studio 2013\Projects\imageDeletedChecker\imageDeletedChecker\obj\Debug\imageDeletedChecker.exe
+c:\users\_\documents\visual studio 2013\Projects\imageDeletedChecker\imageDeletedChecker\obj\Debug\imageDeletedChecker.pdb
