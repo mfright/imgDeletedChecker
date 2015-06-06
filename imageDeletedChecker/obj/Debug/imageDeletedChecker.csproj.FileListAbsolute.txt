@@ -7,3 +7,6 @@ c:\users\_\documents\visual studio 2013\Projects\imageDeletedChecker\imageDelete
 c:\users\_\documents\visual studio 2013\Projects\imageDeletedChecker\imageDeletedChecker\obj\Debug\imageDeletedChecker.csproj.GenerateResource.Cache
 c:\users\_\documents\visual studio 2013\Projects\imageDeletedChecker\imageDeletedChecker\obj\Debug\imageDeletedChecker.exe
 c:\users\_\documents\visual studio 2013\Projects\imageDeletedChecker\imageDeletedChecker\obj\Debug\imageDeletedChecker.pdb
+C:\Users\_\Documents\GitHub\imgDeletedChecker\imageDeletedChecker\bin\Debug\imageDeletedChecker.exe.config
+C:\Users\_\Documents\GitHub\imgDeletedChecker\imageDeletedChecker\obj\Debug\imageDeletedChecker.exe
+C:\Users\_\Documents\GitHub\imgDeletedChecker\imageDeletedChecker\obj\Debug\imageDeletedChecker.pdb
