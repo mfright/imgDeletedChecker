@@ -98,6 +98,11 @@ namespace imageDeletedChecker
                     }
                 }
             }
+
+            if (lstImagesDeleted.Items.Count == 0)
+            {
+                MessageBox.Show("古いhtmlにのみ登場するimgタグ画像はありませんでした。");
+            }
         }
 
         private void loadUrls(string filePath,ListBox lstTarget)
@@ -138,7 +143,42 @@ namespace imageDeletedChecker
         {
             int selectedI = lstImagesDeleted.SelectedIndex;
             string url = (string)lstImagesDeleted.Items[selectedI];
-            webPreview.Navigate(url);
+            navigator(url);
+        }
+
+        private void navigator(string url)
+        {
+            if (url.Length > 4 && url.Substring(0, 4).Equals("http"))
+            {
+                webPreview.Navigate(url);
+            }
+            else
+            {
+                int index = lblHtmlFile.Text.LastIndexOf('\\');
+                if (index < 0)
+                {
+                    return;
+                }
+
+                string file = lblHtmlFile.Text.Substring(0, index);
+                file = file + "\\" + url;
+
+                webPreview.Navigate(file);
+            }
+        }
+
+        private void lstImagesPrevious_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int selectedI = lstImagesPrevious.SelectedIndex;
+            string url = (string)lstImagesPrevious.Items[selectedI];
+            navigator(url);
+        }
+
+        private void lstImagesNew_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int selectedI = lstImagesNew.SelectedIndex;
+            string url = (string)lstImagesNew.Items[selectedI];
+            navigator(url);
         }
 
         /*

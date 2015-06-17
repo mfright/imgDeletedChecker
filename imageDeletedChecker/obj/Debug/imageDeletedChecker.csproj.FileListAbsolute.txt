@@ -10,3 +10,9 @@ c:\users\_\documents\visual studio 2013\Projects\imageDeletedChecker\imageDelete
 C:\Users\_\Documents\GitHub\imgDeletedChecker\imageDeletedChecker\bin\Debug\imageDeletedChecker.exe.config
 C:\Users\_\Documents\GitHub\imgDeletedChecker\imageDeletedChecker\obj\Debug\imageDeletedChecker.exe
 C:\Users\_\Documents\GitHub\imgDeletedChecker\imageDeletedChecker\obj\Debug\imageDeletedChecker.pdb
+C:\Users\_\Documents\GitHub\imgDeletedChecker\imageDeletedChecker\bin\Debug\imageDeletedChecker.exe
+C:\Users\_\Documents\GitHub\imgDeletedChecker\imageDeletedChecker\bin\Debug\imageDeletedChecker.pdb
+C:\Users\_\Documents\GitHub\imgDeletedChecker\imageDeletedChecker\obj\Debug\imageDeletedChecker.csprojResolveAssemblyReference.cache
+C:\Users\_\Documents\GitHub\imgDeletedChecker\imageDeletedChecker\obj\Debug\imageDeletedChecker.Form1.resources
+C:\Users\_\Documents\GitHub\imgDeletedChecker\imageDeletedChecker\obj\Debug\imageDeletedChecker.Properties.Resources.resources
+C:\Users\_\Documents\GitHub\imgDeletedChecker\imageDeletedChecker\obj\Debug\imageDeletedChecker.csproj.GenerateResource.Cache

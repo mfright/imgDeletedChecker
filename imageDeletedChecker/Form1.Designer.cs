@@ -61,9 +61,9 @@
             this.lblHtmlFile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.lblHtmlFile.Location = new System.Drawing.Point(11, 7);
             this.lblHtmlFile.Name = "lblHtmlFile";
-            this.lblHtmlFile.Size = new System.Drawing.Size(310, 12);
+            this.lblHtmlFile.Size = new System.Drawing.Size(322, 12);
             this.lblHtmlFile.TabIndex = 1;
-            this.lblHtmlFile.Text = "最新のHTMLファイルを選択。IMGタグは <img src=\" を含むこと。";
+            this.lblHtmlFile.Text = "最新のHTMLファイルを選択。IMGタグは「 <img src=\" 」を含むこと。\r\n";
             // 
             // lstImagesNew
             // 
@@ -73,6 +73,7 @@
             this.lstImagesNew.Name = "lstImagesNew";
             this.lstImagesNew.Size = new System.Drawing.Size(287, 280);
             this.lstImagesNew.TabIndex = 2;
+            this.lstImagesNew.SelectedIndexChanged += new System.EventHandler(this.lstImagesNew_SelectedIndexChanged);
             // 
             // lstImagesPrevious
             // 
@@ -82,6 +83,7 @@
             this.lstImagesPrevious.Name = "lstImagesPrevious";
             this.lstImagesPrevious.Size = new System.Drawing.Size(300, 184);
             this.lstImagesPrevious.TabIndex = 3;
+            this.lstImagesPrevious.SelectedIndexChanged += new System.EventHandler(this.lstImagesPrevious_SelectedIndexChanged);
             // 
             // lblPreviousFile
             // 
@@ -89,9 +91,9 @@
             this.lblPreviousFile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.lblPreviousFile.Location = new System.Drawing.Point(11, 33);
             this.lblPreviousFile.Name = "lblPreviousFile";
-            this.lblPreviousFile.Size = new System.Drawing.Size(314, 12);
+            this.lblPreviousFile.Size = new System.Drawing.Size(322, 12);
             this.lblPreviousFile.TabIndex = 4;
-            this.lblPreviousFile.Text = "以前のHTMLファイルを選択。IMGタグは <img src=\"　を含むこと。";
+            this.lblPreviousFile.Text = "以前のHTMLファイルを選択。IMGタグは「 <img src=\" 」を含むこと。";
             // 
             // btnSelectPreviousHtml
             // 
